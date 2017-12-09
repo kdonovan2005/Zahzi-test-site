@@ -124,6 +124,9 @@ body.menuOpened .fixedHeader{
     text-transform: uppercase;
     line-height: .8;
 }
+.logo a img {
+  height: 20px;
+}
 .logo a:hover{
     color: #ffd667;
 }

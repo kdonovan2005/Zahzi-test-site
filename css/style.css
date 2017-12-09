@@ -116,7 +116,7 @@ body.menuOpened .fixedHeader{
     padding-bottom: 32px;
 }
 .logo a{
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-size: 22px;
     color: #FFF;
     font-weight: 700;
@@ -467,7 +467,7 @@ body.menuOpened .sideMenuArea{
 }
 .bannerDetails h1{
     color: #FFF;
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 62px;
     line-height: 90px;
     font-weight: 400;
@@ -543,7 +543,7 @@ body.menuOpened .sideMenuArea{
     letter-spacing: 15px;
 }
 .slid2s h1{
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 130px;
     color: #b89840;
     line-height: 110px;
@@ -695,7 +695,7 @@ body.menuOpened .sideMenuArea{
     margin-top: -50px;
 }
 .welcomHeading{
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 46px;
     line-height: .8;
     margin: 0 0 30px;
@@ -929,7 +929,7 @@ body.menuOpened .sideMenuArea{
     color: #000;
 }
 .counters2 h2{
-    font-family: Georgia;
+    font-family: Georgia serif;
     color: #b89840;
     font-size: 56px;
     margin: 4px 0 23px;
@@ -993,7 +993,7 @@ body.menuOpened .sideMenuArea{
     color: #fff;
     line-height: .8;
     margin: 13px 0 30px;
-    font-family: Georgia;
+    font-family: Georgia serif;
 }
 .itemContent p{
     font-size: 18px;
@@ -1069,7 +1069,7 @@ body.menuOpened .sideMenuArea{
     margin-bottom: 43px;
 }
 .bootsTab2 .itemContent h2{
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     font-weight: 300;
     text-transform: uppercase;
     font-size: 24px;
@@ -1219,7 +1219,7 @@ body.menuOpened .sideMenuArea{
     line-height: 70px;
     text-transform: capitalize;
     color: #000;
-    font-family: Georgia;
+    font-family: Georgia serif;
     margin: 20px 0 21px;
 }
 .singleFolio:hover .folioHover h1{
@@ -1359,7 +1359,7 @@ body.menuOpened .sideMenuArea{
     color: #FFF;
     text-transform: capitalize;
     margin: 0px;
-    font-family: Georgia;
+    font-family: Georgia serif;
 }
 .fI2content h2 a{
     color: #fff;
@@ -1535,14 +1535,14 @@ body.menuOpened .sideMenuArea{
     line-height: .8;
     color: #FFF;
     margin: 0 0 23px;
-    font-family: Georgia;
+    font-family: Georgia serif;
 }
 .callToActionContent2 h3{
     line-height: .8;
     color: #FFF;
     font-size: 46px;
     margin: 0 0 52px;
-    font-family: Georgia;
+    font-family: Georgia serif;
 }
 .callToActionContent2 .stellarButton{
     background: #b89841;
@@ -2179,7 +2179,7 @@ body.menuOpened .sideMenuArea{
     background: #fafafa;
 }
 .testiItem2 p{
-    font-family: Georgia;
+    font-family: Georgia serif;
     color: #336fac;
     font-size: 36px;
     line-height: 50px;
@@ -2308,7 +2308,7 @@ body.menuOpened .sideMenuArea{
 }
 .singleBlog h1{
     margin: 0;
-    font-family: Georgia;
+    font-family: Georgia serif;
 }
 .singleBlog h1 a{
     color: #000;
@@ -2412,7 +2412,7 @@ body.menuOpened .sideMenuArea{
 .singleBlog2 h1{
     margin: 0;
     padding: 0 15px;
-    font-family: Georgia;
+    font-family: Georgia serif;
     line-height: 35px;
     font-size: 30px;
 }
@@ -2652,7 +2652,7 @@ body.menuOpened .sideMenuArea{
 }
 .subsNotice p, .consNotice p{
     color: #fff;
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 30px;
     margin: 40px 0 0;
     text-transform: capitalize;
@@ -2864,7 +2864,7 @@ button.submita:hover{
 .conInfos2 p{
     display: inline-block;
     text-align: center;
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 20px;
     color: #000;
     line-height: .8;
@@ -3545,7 +3545,7 @@ button.submita:hover{
 }
 .coms{
     margin-top: 15px;
-    font-family: Georgia;
+    font-family: Georgia serif;
     font-size: 14px;
     line-height: 20px;
     color: #667777;
@@ -3879,7 +3879,7 @@ button.submita:hover{
     font-size: 24px;
     line-height: 35px;
     font-weight: 300;
-    font-family: Roboto;
+    font-family: Roboto sans-serif;
     padding: 0 20px;
 }
 .relatedBlog .sbHeader h1 a{
@@ -4304,7 +4304,7 @@ button.submita:hover{
     font-size: 20px;
     line-height: 36px;
     font-style: italic;
-    font-family: Georgia;
+    font-family: Georgia serif;
     color: #999999;
     margin-bottom: 30px;
 }

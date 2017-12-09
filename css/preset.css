@@ -67,7 +67,7 @@ a:focus{
     letter-spacing: 2px;
     padding-bottom: 20px;
     line-height: .8;
-    
+
 }
 .learnMoreButton2:after{
     width: 40px;
@@ -93,7 +93,7 @@ a:focus{
     letter-spacing: 2px;
     padding-bottom: 20px;
     line-height: .8;
-    
+
 }
 .learnMoreButton3:after{
     width: 40px;
@@ -211,6 +211,6 @@ p{
 a.golden:hover{
     color: #FFF;
 }
-.blue{
-    color: #2c3da7;
+.pink{
+    color: rgb(225,3,139);
 }

@@ -4442,3 +4442,26 @@ button.submita:hover{
   max-width: 100%;
   width: auto;
 }
+
+.learnmore {
+  display: table-cell;
+  font-size: 16px;
+  height: 280px;
+  letter-spacing: 8px;
+  margin: 0 0 29px;
+  text-transform: uppercase;
+  font-weight: 300;
+  vertical-align: middle;
+}
+
+.learnmore a {
+  color: rgb(225,3,139);
+}
+
+#learnMore:hover a {
+  color: #000 !important;
+}
+
+#learnMore:hover .mores {
+  background: url('../images/right_arrow.png') no-repeat center center #000;
+}

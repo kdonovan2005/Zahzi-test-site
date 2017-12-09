@@ -40,7 +40,6 @@
 
 /* Grid item */
 .grid__item {
-    background: #fff none repeat scroll 0 0;
     cursor: pointer;
     display: inline-block;
     position: relative;
@@ -497,7 +496,7 @@
         margin-left: 0;
     }
 
-    
+
 }
 @media screen and (min-width: 900px) {
     .grid {
@@ -511,7 +510,7 @@
 
 /* small screen changes for sidebar (it becomes an off-canvas menu) */
 @media screen and (max-width: 599px) {
-    
+
     .content .close-button {
         padding: 10px 20px;
     }

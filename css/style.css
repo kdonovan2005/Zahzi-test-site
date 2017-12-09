@@ -431,7 +431,8 @@ body.menuOpened .sideMenuArea{
     width: 100%;
     height: auto;
     position: relative;
-    background: url(../images/slide/3.jpg) no-repeat top center;
+    background: url(../images/slide/bg.jpg) no-repeat top center;
+    background-size: cover;
 }
 .banners:after{
     content: "";
@@ -1623,6 +1624,7 @@ body.menuOpened .sideMenuArea{
 .stellarButton:hover{
     background: rgb(225,3,139);
     color: #FFF;
+    border: 1px solid #fff;
 }
 .black.callToActionContent h5, .callToActionContent h3{
     color: #000;
@@ -1713,7 +1715,7 @@ body.menuOpened .sideMenuArea{
 .teamDetails{
     width: 222px;
     height: 101px;
-    background: #2c3da7;
+    background: rgb(225,3,139);
     position: absolute;
     left: 0;
     right: 0;
@@ -1786,7 +1788,7 @@ body.menuOpened .sideMenuArea{
 }
 .thead a{
     font-size: 18px;
-    color: #2c3da7;
+    color: rgb(225,3,139);
     font-weight: 600;
     text-transform: capitalize;
     line-height: .8;
@@ -1838,7 +1840,7 @@ body.menuOpened .sideMenuArea{
 }
 .twitterFeedsa .carousel-indicators li.active{
     background: #FFF;
-    border-color: #2c3da7;
+    border-color: rgb(225,3,139);
 }
 .teamCalltoaction{
     margin-top: 70px;
@@ -2292,7 +2294,6 @@ body.menuOpened .sideMenuArea{
     margin-bottom: 105px;
 }
 .singleBlog{
-    background: #FFF;
     padding: 0 30px 20px;
 }
 .sbHeader{
@@ -2312,7 +2313,7 @@ body.menuOpened .sideMenuArea{
     line-height: 45px;
 }
 .singleBlog h1 a:hover{
-    color: #2c3da7;
+    color: rgb(225,3,139);
 }
 .sbMeta{
     position: relative;
@@ -2320,13 +2321,13 @@ body.menuOpened .sideMenuArea{
 }
 
 .sbCats{
-    color: #2c3da7;
+    color: rgb(225,3,139);
     padding-top: 24px;
     line-height: .8;
     padding-bottom: 26px;
 }
 .sbCats a{
-    color: #2c3da7;
+    color: rgb(225,3,139);
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 400;
@@ -2361,7 +2362,7 @@ body.menuOpened .sideMenuArea{
     position: relative;
 }
 .sbFooter a:hover{
-    color: #2c3da7;
+    color: rgb(225,3,139);
 }
 .sbFooter a i{
     bottom: -2px;
@@ -2418,7 +2419,7 @@ body.menuOpened .sideMenuArea{
     line-height: 35px;
 }
 .singleBlog2 h1 a:hover{
-    color: #2c3da7;
+    color: rgb(225,3,139);
 }
 .singleBlog2 .sbCats{
     color: #b89841;
@@ -2479,7 +2480,7 @@ body.menuOpened .sideMenuArea{
     line-height: 35px;
 }
 .singleBlog3 h1 a:hover{
-    color: #2c3da7;
+    color: rgb(225,3,139);
 }
 .singleBlog3 .sbCats{
     color: #b89841;
@@ -2537,9 +2538,10 @@ body.menuOpened .sideMenuArea{
     z-index: 2;
 }
 .subscribeSection:after{
-    background: rgba(0, 0, 0, 0) url("../images/bg/15.jpg") no-repeat scroll center center;
+    background: rgba(0, 0, 0, 0) url("../images/bg/contact2.jpg") no-repeat scroll center center;
     content: "";
     height: 100%;
+
     left: 0;
     position: absolute;
     top: 0;
@@ -2599,7 +2601,7 @@ body.menuOpened .sideMenuArea{
     -o-transition: all ease 500ms;
 }
 .subscribeForm button:hover{
-    background: #2c3da7;
+    background: rgb(225,3,139);
     color: #FFF;
 }
 .subscribeForm p{
@@ -2801,7 +2803,7 @@ button.submita{
     -o-transition: all ease 400ms;
 }
 button.submita:hover{
-    background: #2c3da7;
+    background: rgb(225,3,139);
     color: #fff;
 }
 .conInfos{
@@ -4152,7 +4154,7 @@ button.submita:hover{
 
 #backToTop{
     position: fixed;
-    right: 50px;
+    right: 25px;
     bottom: 40px;
     background: #000 none repeat scroll 0 0;
     border-radius: 50%;
@@ -4175,7 +4177,7 @@ button.submita:hover{
     visibility: visible;
 }
 #backToTop:hover{
-    background: #2c3da7;
+    background: rgb(225,3,139);
 }
 
 
@@ -4433,6 +4435,7 @@ button.submita:hover{
 }
 
 .logos {
-  max-height: 40px;
+  max-height: 80px;
+  max-width: 100%;
   width: auto;
 }

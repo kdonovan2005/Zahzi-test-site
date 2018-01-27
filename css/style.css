@@ -61,6 +61,10 @@
 /*=======================================================================
 // Page Area
 =========================================================================*/
+html {
+overflow-x: hidden;
+}
+
 .animat {
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
@@ -125,7 +129,7 @@ body.menuOpened .fixedHeader{
     line-height: .8;
 }
 .logo a img {
-  height: 20px;
+  height: 60px;
 }
 .logo a:hover{
     color: #ffd667;
@@ -147,6 +151,9 @@ body.menuOpened .fixedHeader{
 }
 .fixedHeader .mainMenu{
     padding-top: 40px;
+}
+.fixedHeader .logo a img {
+  height: 40px;
 }
 .mainMenu ul{
     margin: 0px;
@@ -434,8 +441,15 @@ body.menuOpened .sideMenuArea{
     width: 100%;
     height: auto;
     position: relative;
-    background: url(../images/slide/bg.jpg) no-repeat top center;
+    background: url(../images/home_video.mp4) no-repeat top center;
     background-size: cover;
+}
+.banners video {
+  width: 160%;
+  height: 140%;
+  position: absolute;
+  top: -190px;
+  left: -580px;
 }
 .banners:after{
     content: "";
@@ -444,7 +458,6 @@ body.menuOpened .sideMenuArea{
     top: 0;
     width: 100%;
     height: 100%;
-    background: rgba(1, 1, 1, .5);
 }
 #banner{
     z-index: 4;
@@ -675,7 +688,7 @@ body.menuOpened .sideMenuArea{
     position: relative;
     margin: 0;
     padding-bottom: 405px;
-    background: rgba(0, 0, 0, 0) url("../images/bg/stellar.png") no-repeat scroll -5px bottom;
+    background: rgba(0, 0, 0, 0) url("../images/bg/zahzi1.png") no-repeat scroll -5px bottom;
 }
 .welcomeSection:before{
     background: rgba(0, 0, 0, 0) url("../images/bg/welcome.png") no-repeat scroll center top;
@@ -850,7 +863,7 @@ body.menuOpened .sideMenuArea{
 // Funfact Section
 =========================================================================*/
 .funfacts{
-    background: rgba(0, 0, 0, 0) url("../images/bg/5.jpg") no-repeat scroll 323px top;
+    background: rgba(0, 0, 0, 0) url("../images/bg/pink_cloud.jpg") no-repeat scroll top;
     margin-top: -80px;
     padding-top: 515px;
     position: relative;
@@ -1685,7 +1698,10 @@ body.menuOpened .sideMenuArea{
     color: rgb(225,3,139);
 }
 .team .biggerHeading{
-    margin-bottom: 111px;
+
+}
+.team p {
+  margin-bottom: 111px;
 }
 .singleTeam{
     width: 100%;
@@ -2534,14 +2550,14 @@ body.menuOpened .sideMenuArea{
 =========================================================================*/
 .subscribeSection{
     margin-top: -432px;
-    min-height: 598px;
+    /* min-height: 598spx; */
     padding: 213px 0 225px;
     position: relative;
     width: 100%;
     z-index: 2;
 }
 .subscribeSection:after{
-    background: rgba(0, 0, 0, 0) url("../images/bg/contact2.jpg") no-repeat scroll center center;
+    background: #727272;
     content: "";
     height: 100%;
 
@@ -2828,10 +2844,11 @@ button.submita:hover{
     letter-spacing: 2px;
     line-height: .8;
     margin: 0px 0px 29px;
+    text-align: center;
 }
 .sconInfo h5 i{
     position: absolute;
-    left: 0;
+    left: 40%;
     top: -6px;
     font-size: 20px;
     color: rgba(0, 0, 0, .1);
@@ -2845,6 +2862,7 @@ button.submita:hover{
     margin: 0px;
     text-transform: uppercase;
     letter-spacing: 2px;
+    text-align: center;
 }
 
 /*=======================================================================
@@ -4381,9 +4399,9 @@ button.submita:hover{
 }
 
 .circle {
-  width: 400px;
-  height: 400px;
-  background: linear-gradient(90deg, #6c6c6c 4%, rgb(225,3,139));
+  width: 500px;
+  height: 500px;
+  background: linear-gradient(90deg, #6c6c6c, rgb(225,3,139));
   border-radius: 50%;
   margin: auto;
   position: relative;
@@ -4400,41 +4418,42 @@ button.submita:hover{
   top: 50%;
   left: 50%;
   transform: translate(-50%,-50%);
-  width: 310px;
+  width: 430px;
 }
 
 .circle .typog.line1 {
-  font-size: 33px;
+  font-size: 49px;
 }
 
 .circle .typog.line2 {
-  font-size: 34px;
+  font-size: 51px;
   font-weight: bold;
-  margin: 4px 0 0
+  margin: 14px 0 7px;
 }
 
 .circle .typog.line3 {
-  font-size: 18px
+  font-size: 28px
 }
 
 .circle .typog.line4 {
-  font-size: 17px;
+  font-size: 27px;
   font-weight: bolder;
 }
 
 .circle .typog.line5 {
-  font-size: 26px;
+  font-size: 39px;
+  margin: 2px 0;
   font-weight: bold;
 }
 
 .circle .typog.line6 {
-  font-size: 44px;
+  font-size: 62px;
   font-weight: bolder;
-  margin: 8px 0;
+  margin: 23px 0;
 }
 
 .circle .typog.line7 {
-  font-size: 29px;
+  font-size: 44px;
 }
 
 .logos {

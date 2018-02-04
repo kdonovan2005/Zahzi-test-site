@@ -1200,7 +1200,6 @@ body.menuOpened .sideMenuArea{
 }
 .folioHover{
     width: 418px;
-    height: 215px;
     position: absolute;
     box-shadow: 0 21px 25px rgba(0, 0, 0, .06);
     left: -100px;
@@ -1215,6 +1214,7 @@ body.menuOpened .sideMenuArea{
     opacity: 0;
     visibility: hidden;
     z-index: 3;
+    overflow-y: scroll;
 }
 .rightHover .folioHover{
     left: auto;
@@ -1225,7 +1225,7 @@ body.menuOpened .sideMenuArea{
 .singleFolio:hover .folioHover{
     opacity: 1;
     visibility: visible;
-    bottom: 60px;
+    top: 0px;
 }
 .folioHover h1{
     font-size: 80px;
@@ -1239,12 +1239,16 @@ body.menuOpened .sideMenuArea{
     opacity: 1;
     visibility: visible;
 }
+.folioHover h3 {
+  font-weight: bold;
+  text-align: center;
+}
 .folioHover .cats{
     position: relative;
     font-size: 12px;
     text-transform: uppercase;
     font-weight: 300;
-    color: #4655e3;
+    color: rgb(225,3,139);
     line-height: .8;
 }
 .folioHover .cats a{
@@ -4511,10 +4515,25 @@ button.submita:hover{
   font-size: 44px;
 }
 
+.flexbox {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo-container {
+  width: 20%;
+  padding: 0 30px;
+}
+
 .logos {
   max-height: 80px;
   max-width: 100%;
   width: auto;
+  opacity: 0.3;
+  -webkit-filter: grayscale(100%) brightness(60%) contrast(100%);
+  filter: grayscale(100%) brightness(60%) contrast(100%);
+  margin-top: 60px !important;
 }
 
 .learnmore {

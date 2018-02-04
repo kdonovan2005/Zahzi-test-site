@@ -243,7 +243,7 @@ body.menuOpened .fixedHeader{
     color: #ffd667;
 }
 .home2 .mainMenu ul li a:hover, .home2 .mainMenu ul li.active > a{
-    color: #b89840;
+    color: rgb(255,3,139);
 }
 .mainMenu ul li ul{
     position: absolute;
@@ -441,7 +441,7 @@ body.menuOpened .sideMenuArea{
     width: 100%;
     height: auto;
     position: relative;
-    background: url(../images/home_video.mp4) no-repeat top center;
+    background: url(../images/bg/header.jpg) no-repeat top center;
     background-size: cover;
 }
 .banners video {
@@ -688,7 +688,7 @@ body.menuOpened .sideMenuArea{
     position: relative;
     margin: 0;
     padding-bottom: 405px;
-    background: rgba(0, 0, 0, 0) url("../images/bg/zahzi1.png") no-repeat scroll -5px bottom;
+    background: rgba(0, 0, 0, 0) url("../images/bg/zahzi2.png") no-repeat scroll -5px bottom;
 }
 .welcomeSection:before{
     background: rgba(0, 0, 0, 0) url("../images/bg/welcome.png") no-repeat scroll center top;
@@ -1690,18 +1690,67 @@ body.menuOpened .sideMenuArea{
     width: 100%;
     position: relative;
     padding: 90px 0 125px;
+    z-index: 2;
 }
 .team .sectionTitle{
     margin-bottom: 44px;
 }
 .biggerHeading span{
     color: rgb(225,3,139);
+    margin-left: 60px;
 }
-.team .biggerHeading{
-
+.team .biggerHeading {
+  color: rgb(225,3,139);
+}
+.team .biggerHeading.left{
+  text-align: right;
+  margin-right: -150px;
+  position: relative;
+  z-index: 2;
+}
+.team .biggerHeading.right{
+  margin-left: -150px;
+  position: relative;
+  z-index: 2;
+}
+.team .biggishHeading {
+  font-size: 66px;
+  line-height: 40px;
+  color: #ffd667;
+  letter-spacing: -2px;
+  font-family: Georgia;
+  margin: 0px;
+}
+.team .biggishHeading.left {
+  text-align: right;
+  margin-right: -150px;
+  position: relative;
+  z-index: 2;
+}
+.team .biggishHeading.right {
+  margin-left: -150px;
+  position: relative;
+  z-index: 2;
+  font-size: 55px;
+}
+.team .quote {
+  text-align: right;
+  font-size: 39px;
+  color: #555;
+  margin: 45px 0;
+  font-weight: bold;
+}
+.team .quote.left {
+  text-align: left;
 }
 .team p {
-  margin-bottom: 111px;
+  margin-bottom: 25px;
+  color: #676767;
+  text-align: justify;
+}
+.team img {
+  width: 100%;
+  margin-top: 100px;
 }
 .singleTeam{
     width: 100%;
@@ -2085,7 +2134,7 @@ body.menuOpened .sideMenuArea{
     z-index: 2;
 }
 .testimonial:after{
-    background: #6c6c6c;
+    background: #eee;
     content: "";
     height: 100%;
     left: 0;
@@ -2103,7 +2152,7 @@ body.menuOpened .sideMenuArea{
     z-index: 2;
 }
 .testimonial .sectionTitle small{
-    color: #FFF;
+    color: #555;
 }
 .testiItem{
     width: 100%;
@@ -2132,6 +2181,12 @@ body.menuOpened .sideMenuArea{
     line-height: .8;
     letter-spacing: 2px;
     text-transform: uppercase;
+}
+.testimonial .biggerHeading {
+  color: rgb(225,3,139);
+}
+.testimonial .biggerHeading span {
+  color: #ffd667;
 }
 #testimonialSlider{
     position: relative;
@@ -2310,7 +2365,7 @@ body.menuOpened .sideMenuArea{
     margin-bottom: 0px;
 }
 .latestBlog .sectionTitle{
-    margin-bottom: 105px;
+    margin-bottom: 15px;
 }
 .singleBlog{
     padding: 0 30px 20px;
@@ -2557,7 +2612,7 @@ body.menuOpened .sideMenuArea{
     z-index: 2;
 }
 .subscribeSection:after{
-    background: #727272;
+    background: #eee;
     content: "";
     height: 100%;
 
@@ -2932,7 +2987,7 @@ button.submita:hover{
     color: #b89840;
 }
 .sconInfo h5 i{
-    color: #b89840;
+    color: rgb(225,3,139);
 }
 .conforms3 .submita{
     background: #b89841;
@@ -4483,4 +4538,27 @@ button.submita:hover{
 
 #learnMore:hover .mores {
   background: url('../images/right_arrow.png') no-repeat center center #000;
+}
+
+.pink {
+  color: rgb(225,3,139) !important;
+}
+
+.dk-gray {
+  color: #555;
+}
+
+.button {
+  width: 100%;
+  display: block;
+  text-align: center;
+  outline: 2px solid;
+  padding: 10px;
+  background: #eee;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  color: #FFF;
+  background: rgb(225,3,139);
 }

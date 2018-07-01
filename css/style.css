@@ -94,7 +94,7 @@ body.bodyoverflos{
     left: 0;
     top: 0;
     width: 100%;
-    background: rgba(0, 0, 0, .97);
+    background: rgba(255,255,255,.9);
     transition: all ease 400ms;
     -moz-transition: all ease 400ms;
     -webkit-transition: all ease 400ms;
@@ -231,12 +231,12 @@ body.menuOpened .fixedHeader{
 }
 .mainMenu ul li a{
     font-size: 13px;
-    color: #FFF;
+    color: #000;
     letter-spacing: 2px;
     text-transform: uppercase;
     line-height: .8;
     display: inline-block;
-    font-weight: 500;
+    font-weight: 600;
     width: 100%;
 }
 .mainMenu ul li a:hover, .mainMenu ul li.active > a{
@@ -480,10 +480,10 @@ body.menuOpened .sideMenuArea{
 }
 .bannerDetails h1{
     color: #FFF;
-    font-family: Georgia, serif;
-    font-size: 62px;
+    font-family: Roboto, sans-serif;
+    font-size: 78px;
     line-height: 90px;
-    font-weight: 400;
+    font-weight: bolder;
 }
 .bannerDetails h1 span{
     color: #ffd667;
@@ -523,7 +523,7 @@ body.menuOpened .sideMenuArea{
     margin: auto;
 }
 #banner .owl-pagination .owl-page.active{
-    border: 2px solid #ffd667;
+    border: 2px solid rgb(255,3,139);
     background: rgba(0, 0, 0, 0);
     padding: 0px;
 }
@@ -688,7 +688,8 @@ body.menuOpened .sideMenuArea{
     position: relative;
     margin: 0;
     padding-bottom: 405px;
-    background: rgba(0, 0, 0, 0) url("../images/bg/zahzi2.png") no-repeat scroll -5px bottom;
+    background: rgba(0, 0, 0, 0) url("../images/bg/Two Rocks.jpg") no-repeat scroll -90px 475px;
+    background-size: 580px;
 }
 .welcomeSection:before{
     background: rgba(0, 0, 0, 0) url("../images/bg/welcome.png") no-repeat scroll center top;
@@ -864,6 +865,7 @@ body.menuOpened .sideMenuArea{
 =========================================================================*/
 .funfacts{
     background: rgba(0, 0, 0, 0) url("../images/bg/pink_cloud.jpg") no-repeat scroll top;
+    background-size: cover;
     margin-top: -80px;
     padding-top: 515px;
     position: relative;
@@ -4495,7 +4497,7 @@ button.submita:hover{
 }
 
 .circle .typog.line4 {
-  font-size: 27px;
+  font-size: 25px;
   font-weight: bolder;
 }
 
@@ -4580,4 +4582,9 @@ button.submita:hover{
 .button:hover {
   color: #FFF;
   background: rgb(225,3,139);
+}
+
+p.thin-width {
+  margin: auto;
+  width: 60%;
 }

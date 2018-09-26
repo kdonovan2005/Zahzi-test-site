@@ -1189,6 +1189,11 @@ body.menuOpened .sideMenuArea{
     margin-bottom: 30px;
     position: relative;
     z-index: 2;
+    max-height: 320px;
+}
+.folioImg {
+  overflow: hidden;
+  max-height: 320px;
 }
 .singleFolio img{
     width: 100%;
@@ -1544,7 +1549,7 @@ body.menuOpened .sideMenuArea{
     line-height: .8;
     letter-spacing: 8px;
     margin-bottom: 30px;
-    color: #b89841;
+    color: rgb(225,3,139);
     margin: 0px 0 15px;
     text-transform: uppercase;
     font-weight: 300;
@@ -1564,13 +1569,13 @@ body.menuOpened .sideMenuArea{
     font-family: Georgia, serif;
 }
 .callToActionContent2 .stellarButton{
-    background: #b89841;
+    background: rgb(225,3,139);
     color: #FFF;
     font-weight: 700;
 }
 .callToActionContent2 .stellarButton:hover{
     background: #FFF;
-    color: #b89841;
+    color: rgb(225,3,139);
 }
 
 /*=======================================================================
@@ -1960,7 +1965,7 @@ body.menuOpened .sideMenuArea{
     bottom: -13px;
 }
 .singleTeam2 .teamDetails a:hover{
-    color: #b89841;
+    color: rgb(225,3,139);
 }
 /*=======================================================================
 // Team 3
@@ -1996,7 +2001,7 @@ body.menuOpened .sideMenuArea{
     padding: 36px 0 128px;
 }
 .infoSection .biggerHeading span{
-    color: #b89841;
+    color: rgb(225,3,139);
 }
 .infoP{
     margin: 0px;
@@ -2323,7 +2328,7 @@ body.menuOpened .sideMenuArea{
     font-weight: 400;
     font-size: 12px;
     text-transform: uppercase;
-    color: #b89841;
+    color: rgb(225,3,139);
     margin: 0px;
     text-align: left;
     letter-spacing: 2px;
@@ -2477,7 +2482,7 @@ body.menuOpened .sideMenuArea{
     -o-transition: all ease 500ms;
 }
 .singleBlog2:hover, .singleBlog2:focus{
-    border-color: #b89841;
+    border-color: rgb(225,3,139);
 }
 .singleBlog2 .sbHeader{
     min-height: 155px;
@@ -2502,7 +2507,7 @@ body.menuOpened .sideMenuArea{
     color: rgb(225,3,139);
 }
 .singleBlog2 .sbCats{
-    color: #b89841;
+    color: rgb(225,3,139);
     font-size: 13px;
     text-transform: uppercase;
     line-height: .8;
@@ -2511,7 +2516,7 @@ body.menuOpened .sideMenuArea{
     letter-spacing: 0px;
 }
 .singleBlog2 .sbCats a{
-    color: #b89841;
+    color: rgb(225,3,139);
     font-size: 13px;
     text-transform: uppercase;
     line-height: .8;
@@ -2563,7 +2568,7 @@ body.menuOpened .sideMenuArea{
     color: rgb(225,3,139);
 }
 .singleBlog3 .sbCats{
-    color: #b89841;
+    color: rgb(225,3,139);
     font-size: 13px;
     text-transform: uppercase;
     line-height: .8;
@@ -2572,7 +2577,7 @@ body.menuOpened .sideMenuArea{
     letter-spacing: 0px;
 }
 .singleBlog3 .sbCats a{
-    color: #b89841;
+    color: rgb(225,3,139);
     font-size: 13px;
     text-transform: uppercase;
     line-height: .8;
@@ -2755,7 +2760,7 @@ body.menuOpened .sideMenuArea{
     font-weight: 400;
 }
 .subscribeForm2 button{
-    background: #b89841;
+    background: rgb(225,3,139);
     color: #FFF;
     font-weight: 700;
     letter-spacing: 2px;
@@ -2787,7 +2792,7 @@ body.menuOpened .sideMenuArea{
     font-weight: 400;
 }
 .subscribeForm3 button{
-    background: #b89841;
+    background: rgb(225,3,139);
     color: #FFF;
     font-weight: 700;
     letter-spacing: 2px;
@@ -2960,7 +2965,7 @@ button.submita:hover{
     margin-right: 30px;
 }
 .conInfos2 p i{
-    color: #b89841;
+    color: rgb(225,3,139);
     margin-right: 11px;
 }
 .conforms2{
@@ -2972,7 +2977,7 @@ button.submita:hover{
     border-color: #CCC;
 }
 .conforms2 .submita{
-    background: #b89841;
+    background: rgb(225,3,139);
     font-weight: 700;
     letter-spacing: 2px;
     color: #FFF;
@@ -2996,7 +3001,7 @@ button.submita:hover{
     color: rgb(225,3,139);
 }
 .conforms3 .submita{
-    background: #b89841;
+    background: rgb(225,3,139);
     font-weight: 300;
     letter-spacing: 2px;
     color: #FFF;
@@ -3128,7 +3133,7 @@ button.submita:hover{
     padding: 90px 0;
 }
 .comonPagTitle{
-    color: #b89841;
+    color: rgb(225,3,139);
     display: block;
     font-size: 16px;
     line-height: .8;
@@ -3306,7 +3311,7 @@ button.submita:hover{
 }
 .bloglist .sbCats{
     font-size: 13px;
-    color: #b89841;
+    color: rgb(225,3,139);
     line-height: .8;
     text-transform: uppercase;
     font-weight: 700;
@@ -3314,7 +3319,7 @@ button.submita:hover{
 }
 .bloglist .sbCats a{
     font-size: 13px;
-    color: #b89841;
+    color: rgb(225,3,139);
     line-height: .8;
     text-transform: uppercase;
     letter-spacing: 0;
@@ -3724,12 +3729,12 @@ button.submita:hover{
     font-size: 13px;
     line-height: .8;
     letter-spacing: 0;
-    color: #b89841;
+    color: rgb(225,3,139);
     font-weight: 700;
 }
 .singleHeader .cats a{
     text-transform: uppercase;
-    color: #b89841;
+    color: rgb(225,3,139);
     letter-spacing: 0;
     display: inline-block;
     line-height: .8;
@@ -3967,15 +3972,15 @@ button.submita:hover{
     font-weight: 300;
 }
 .relatedBlog .sbHeader h1 a:hover{
-    color: #b89841;
+    color: rgb(225,3,139);
 }
 .relatedBlog .sbCats{
-    color: #b89841;
+    color: rgb(225,3,139);
     font-size: 13px;
     font-weight: 700;
 }
 .relatedBlog .sbCats a{
-    color: #b89841;
+    color: rgb(225,3,139);
     font-size: 13px;
     font-weight: 700;
     letter-spacing: 0;
@@ -3987,7 +3992,7 @@ button.submita:hover{
     font-weight: 400;
 }
 .relatedBlog .sbFooter a:hover{
-    color: #b89841;
+    color: rgb(225,3,139);
 }
 .owlItem{
     width: 100%;
@@ -4095,7 +4100,7 @@ button.submita:hover{
     display: block;
     line-height: .8;
     letter-spacing: 0;
-    color: #b89841;
+    color: rgb(225,3,139);
     text-transform: capitalize;
     margin-bottom: 10px;
 }
@@ -4110,7 +4115,7 @@ button.submita:hover{
 }
 .comDetailsa h3 a{
     font-size: 13px;
-    color: #b89841;
+    color: rgb(225,3,139);
     letter-spacing: 2px;
     text-transform: uppercase;
     margin: 0 0 0 17px;
@@ -4139,7 +4144,7 @@ button.submita:hover{
     color: #000;
 }
 .comDetailsa h3 a:hover:before{
-    background: #b89841;
+    background: rgb(225,3,139);
 }
 .comContenta{
     font-size: 16px;
@@ -4220,7 +4225,7 @@ button.submita:hover{
     text-transform: uppercase;
     letter-spacing: 2px;
     border: none;
-    background: #b89841;
+    background: rgb(225,3,139);
     border-radius: 5px;
     transition: all ease 500ms;
     -moz-transition: all ease 500ms;
@@ -4308,6 +4313,7 @@ button.submita:hover{
     width: 100%;
     position: relative;
     padding-bottom: 90px;
+    background: white;
 }
 .folioInformations{
     width: 100%;
@@ -4325,7 +4331,7 @@ button.submita:hover{
     line-height: .7;
     text-transform: uppercase;
     letter-spacing: 2.8px;
-    color: #b89841;
+    color: rgb(225,3,139);
     font-weight: 700;
     margin: 0 0 25px;
 }
@@ -4400,7 +4406,7 @@ button.submita:hover{
     text-transform: uppercase;
 }
 .clName a{
-    color: #b89841;
+    color: rgb(225,3,139);
 }
 .clName a:hover{
     color: #000;

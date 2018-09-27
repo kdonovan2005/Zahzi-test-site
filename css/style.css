@@ -1209,7 +1209,7 @@ body.menuOpened .sideMenuArea{
     width: 418px;
     position: absolute;
     box-shadow: 0 21px 25px rgba(0, 0, 0, .06);
-    left: 0px;
+    left: -100px;
     background: #FFF;
     bottom: 0px;
     padding-left: 30px;
@@ -1225,7 +1225,7 @@ body.menuOpened .sideMenuArea{
 }
 .rightHover .folioHover{
     left: auto;
-    right: 0px;
+    right: -100px;
     padding-left: 0;
     padding-right: 30px;
 }

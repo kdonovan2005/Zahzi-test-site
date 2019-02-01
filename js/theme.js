@@ -40,12 +40,12 @@
     $("#banner").owlCarousel({
         autoPlay: true,
         navigation: false, // Show next and prev buttons
-        slideSpeed: 1500,
-        paginationSpeed: 500,
+        slideSpeed: 200,
+        paginationSpeed: 700,
         singleItem: true,
         pagination: true,
-        stopOnHover: true,
-        transitionStyle: "bounce"
+        stopOnHover: false,
+        transitionStyle: "fade"
 
     });
 
@@ -79,7 +79,7 @@
 
 
     //========================
-    // Loader 
+    // Loader
     //========================
     $(window).load(function() {
         if ($(".loaderWrap").length > 0)
@@ -325,7 +325,7 @@
             tt = true;
         }
     });
-    
+
     $(".menuButtons2").on('click', function(e){
         e.preventDefault();
         var hh = $(".header").height();
@@ -334,14 +334,14 @@
         $(this).toggleClass('active');
         $('body').toggleClass('bodyoverflos');
     });
-    
+
     $(".closeBtn").on('click', function(e){
         e.preventDefault();
         $(".menuButtons a").removeClass('active').fadeIn('fast');
             $('body').removeClass('menuOpened');
         tt = true;
     });
-    
+
 
     //========================
     // Back To Top

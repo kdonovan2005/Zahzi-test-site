@@ -4620,3 +4620,34 @@ p.thin-width {
   position: relative;
   text-align: center;
 }
+
+.imageGrid {
+  background: white;
+  padding: 0px 40px 40px 40px;
+}
+
+/* .imageGrid .imageContainer {
+  max-height: 250px;
+  overflow: hidden;
+} */
+
+.imageGrid img {
+  max-width: 100%;
+}
+
+.imageGrid .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.imageGrid .column {
+  width: 50%;
+  padding: 0 4px;
+}
+
+.imageGrid .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}

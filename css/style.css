@@ -1205,7 +1205,7 @@ body.menuOpened .sideMenuArea{
     background: #FFF;
     margin-bottom: 30px;
 }
-.folioHover{
+.folioHover {
     width: 418px;
     position: absolute;
     box-shadow: 0 21px 25px rgba(0, 0, 0, .06);
@@ -1222,6 +1222,12 @@ body.menuOpened .sideMenuArea{
     visibility: hidden;
     z-index: 3;
 }
+.folioHover.recentWork {
+  left: 0;
+}
+.rightHover .folioHover.recentWork {
+  right: 0;
+}
 .rightHover .folioHover{
     left: auto;
     right: -100px;
@@ -1231,6 +1237,12 @@ body.menuOpened .sideMenuArea{
     visibility: visible;
     bottom: 0px;
 }
+.singleFolio:hover .folioHover.recent {
+  padding: 10px;
+}
+.singleFolio.recent {
+  max-height: 200px;
+}
 .folioHover h1{
     font-size: 80px;
     line-height: 70px;
@@ -1238,6 +1250,14 @@ body.menuOpened .sideMenuArea{
     color: #000;
     font-family: Georgia, serif;
     margin: 20px 0 21px;
+}
+.recent1 {
+  overflow: hidden;
+  padding: 20px;
+  max-height: 310px;
+}
+.no-pad {
+  padding: 0;
 }
 .singleFolio:hover .folioHover h1{
     opacity: 1;
@@ -4423,7 +4443,7 @@ button.submita:hover{
 }
 .relatedProject:after{
     width: 100%;
-    height: 490px;
+    height: 990px;
     background: #f2f2f2;
     left: 0;
     top: 0;
